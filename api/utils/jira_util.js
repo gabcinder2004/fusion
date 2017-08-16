@@ -1,6 +1,5 @@
 'use strict';
 
-var request = require('request');
 var jiraBaseUrl = 'https://ultidev/rest/api/2/search';
 var config = require('../../config/config.json');
 var JiraApi = require('jira-client');
